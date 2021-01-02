@@ -78,6 +78,8 @@ pygments_style = None
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
+# set theme path
+html_theme_path = ['_static'] #[logilab_sphinx_themes.get_path()]
 html_theme = "logilab"
 
 # Theme options are theme-specific and customize the look and feel of a theme
@@ -86,14 +88,14 @@ html_theme = "logilab"
 #
 # html_theme_options = {}
 html_theme_options = {
-        'logo':'../../../images/logo/Funwave.svg',
+        'logo':'../../../images/logo/logo_2_from_pdf.svg',
         'logo_url':'https://fengyanshi.github.io/build/html/index.html'
         }
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
-# html_static_path = ['Logilabstatic']
+html_static_path = ['_static']
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
