@@ -49,8 +49,10 @@ div.header {
     line-height: 80%;
  }
 
+/* -- fengyan changed height --------------------------------------------------- */
+
 div.header img.logo {
-	height: 12em;
+	height: 8em;
 
 }
 
