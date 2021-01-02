@@ -1,0 +1,18 @@
+<svg width="800" height="350" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="602" width="802" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text font-weight="bold" font-style="normal" xml:space="preserve" text-anchor="start" font-family="Junction, sans-serif" font-size="250" id="svg_1" y="280" x="4" stroke-width="0" stroke="#000" fill="#bf5f00">CSS</text>
+  <text opacity="0.6" xml:space="preserve" text-anchor="start" font-family="Georgia, Times, 'Times New Roman', serif" font-size="40" id="svg_3" y="330" x="34" stroke-width="0" stroke="#000" fill="#000000">Computational Social Science</text>
+  <ellipse ry="13.5" rx="14" id="svg_5" cy="91.5" cx="531" stroke-width="0" stroke="#000" fill="#ffaaff"/>
+  <ellipse ry="13.5" rx="14" id="svg_7" cy="125.5" cx="531" stroke-width="0" stroke="#000" fill="#aaff56"/>
+  <ellipse ry="13.5" rx="14" id="svg_8" cy="107.5" cx="563" stroke-width="0" stroke="#000" fill="#56aaff"/>
+ </g>
+</svg>
