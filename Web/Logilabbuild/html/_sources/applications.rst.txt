@@ -12,3 +12,4 @@
    app_murderkill
    app_wilmington
    app_south_bethany
+   app_shipwakes
