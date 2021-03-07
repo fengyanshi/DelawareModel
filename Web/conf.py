@@ -21,9 +21,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'CSS'
-copyright = '2021, Xuansong'
-author = 'Xuansong'
+project = 'DelModel'
+copyright = '2021, Fengyan Shi'
+author = 'FengyanShi'
 
 # The short X.Y version
 version = ''
@@ -89,7 +89,7 @@ html_theme = "logilab"
 # html_theme_options = {}
 html_theme_options = {
         'logo':'../../../images/logo/css_logo.svg',
-        'logo_url':'https://fengyanshi.github.io/xuansong/Web/Logilabbuild/html/index.html'
+        'logo_url':'https://fengyanshi.github.io/DelawareModel/Web/Logilabbuild/html/index.html'
         }
 
 # Add any paths that contain custom static files (such as style sheets) here,
@@ -139,7 +139,7 @@ latex_elements = {
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
     (master_doc, 'CSS.tex', 'CSS Documentation',
-     'Xuansong', 'manual'),
+     'Fengyan', 'manual'),
 ]
 
 
