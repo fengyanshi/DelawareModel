@@ -14,7 +14,7 @@
     <script type="text/javascript" src="_static/language_data.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="BASICS" href="basics.html" /> 
+    <link rel="next" title="MODELS" href="models.html" /> 
   </head><body>
 <div class="header">
  <p class="logo"><a href="https://fengyanshi.github.io/DelawareModel/Web/Logilabbuild/html/index.html">
@@ -29,7 +29,7 @@
           <a href="genindex.html" title="General Index"
              accesskey="I">index</a></li>
         <li class="right" >
-          <a href="basics.html" title="BASICS"
+          <a href="models.html" title="MODELS"
              accesskey="N">next</a> |</li>
         <li class="nav-item nav-item-0"><a href="#">DelModel  documentation</a> &#187;</li> 
       </ul>
@@ -39,7 +39,8 @@
   <h3><a href="#">Table of Contents</a></h3>
   <ul>
 <li><a class="reference internal" href="#">Description</a><ul>
-<li><a class="reference internal" href="#what-is-computational-social-science">What is Computational Social Science?</a></li>
+<li><a class="reference internal" href="#interactive-web-interface">Interactive Web Interface</a></li>
+<li><a class="reference internal" href="#model-coupling-system">Model Coupling System</a></li>
 </ul>
 </li>
 <li><a class="reference internal" href="#wiki-content">Wiki Content</a></li>
@@ -47,8 +48,8 @@
 </ul>
 
   <h4>Next topic</h4>
-  <p class="topless"><a href="basics.html"
-                        title="next chapter"><strong>BASICS</strong></a></p>
+  <p class="topless"><a href="models.html"
+                        title="next chapter"><strong>MODELS</strong></a></p>
   <div role="note" aria-label="source link">
     <h3>This Page</h3>
     <ul class="this-page-menu">
@@ -76,12 +77,15 @@
             
   <div class="section" id="description">
 <h1>Description<a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="what-is-computational-social-science">
-<h2>What is Computational Social Science?<a class="headerlink" href="#what-is-computational-social-science" title="Permalink to this headline">¶</a></h2>
-<p>Computational social science refers to the academic sub-disciplines concerned with computational approaches to the social sciences. This means that computers are used to model, simulate, and analyze social phenomena. Fields include computational economics, computational sociology, cliodynamics, culturomics, and the automated analysis of contents, in social and traditional media. It focuses on investigating social and behavioral relationships and interactions through social simulation, modeling, network analysis, and media analysis.</p>
-<a class="reference internal image-reference" href="_images/love.jpg"><img alt="_images/love.jpg" class="align-right" src="_images/love.jpg" style="width: 500px; height: 334px;" /></a>
-<p>There are two terminologies that relate to each other: Social Science Computing (SSC) and Computational Social Science (CSS). In literature, CSS is referred to the field of social science that uses the computational approaches in studying the social phenomena. On the other hand, SSC is the field in which computational methodologies are created to assist in explanations of social phenomena.</p>
-<p>Computational social science revolutionizes both fundamental legs of the scientific method: empirical research, especially through big data, by analyzing the digital footprint left behind through social online activities; and scientific theory, especially through computer simulation model building through social simulation.[2][3] It is a multi-disciplinary and integrated approach to social survey focusing on information processing by means of advanced information technology. The computational tasks include the analysis of social networks, social geographic systems,[4] social media content and traditional media content.</p>
+<div class="section" id="interactive-web-interface">
+<h2>Interactive Web Interface<a class="headerlink" href="#interactive-web-interface" title="Permalink to this headline">¶</a></h2>
+<p>The interactive Web Interface (IWI) provides connections between computational components and data input/analysis and visualization. An automated system is used to scrape forcing data from outside sources such as tides, wind, atmospheric pressure, wind waves. It generates boundary and forcing conditions needed by the models. It also handles scheduling, data analysis, data transfer between HPC and Web server.</p>
+<a class="reference internal image-reference" href="_images/autosystem.png"><img alt="_images/autosystem.png" class="align-right" src="_images/autosystem.png" style="width: 500px; height: 334px;" /></a>
+</div>
+<div class="section" id="model-coupling-system">
+<h2>Model Coupling System<a class="headerlink" href="#model-coupling-system" title="Permalink to this headline">¶</a></h2>
+<p>The Model Coupling System (MCS) links models in different scales and physics. The model components include the Coupled Ocean Atmosphere Wave Sediment Transport Modeling System (COAWST), Finite Volume Community Ocean Model (FVCOM), and in-house models, such as NearCoM, FUNWAVE-TVD, and NHWAVE.</p>
+<p>The following WIKI lists the in-house models and typical applications in Delaware Bay and adjacent nearshore regions.</p>
 </div>
 </div>
 <div class="section" id="wiki-content">
@@ -89,12 +93,22 @@
 <div class="toctree-wrapper compound">
 <p class="caption"><span class="caption-text">Contents:</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="basics.html"><strong>BASICS</strong></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="basics_1.html">Basics 1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="models.html"><strong>MODELS</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="mod_funwave.html">FUNWAVE-TVD</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mod_funwave_gpu.html">FUNWAVE-GPU</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mod_nearcom.html">NearCoM</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mod_nhwave.html">NHWAVE</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mod_subgrid.html">NearCoM-Subgrid and fsklern Package</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mod_others.html">Other models like SedFOAM</a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="projects.html"><strong>PROJECTS</strong></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="project1.html">Project 1</a></li>
+<li class="toctree-l1"><a class="reference internal" href="applications.html"><strong>Delaware Applications</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="app_coupling_framework.html">Delaware Bay Nesting System</a></li>
+<li class="toctree-l2"><a class="reference internal" href="app_inlandbays.html">Inlandbays Model</a></li>
+<li class="toctree-l2"><a class="reference internal" href="app_bbk.html">Bombay Hook NWR</a></li>
+<li class="toctree-l2"><a class="reference internal" href="app_murderkill.html">Murderkill Model</a></li>
+<li class="toctree-l2"><a class="reference internal" href="app_wilmington.html">Wilmington Model</a></li>
+<li class="toctree-l2"><a class="reference internal" href="app_south_bethany.html">Beach Models, South Bethany Beach</a></li>
 </ul>
 </li>
 </ul>
@@ -122,7 +136,7 @@
           <a href="genindex.html" title="General Index"
              >index</a></li>
         <li class="right" >
-          <a href="basics.html" title="BASICS"
+          <a href="models.html" title="MODELS"
              >next</a> |</li>
         <li class="nav-item nav-item-0"><a href="#">DelModel  documentation</a> &#187;</li> 
       </ul>

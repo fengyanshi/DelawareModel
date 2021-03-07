@@ -10,20 +10,22 @@
 Description
 ===============================
 
-What is Computational Social Science?
+Interactive Web Interface
 ****************************************
 
-Computational social science refers to the academic sub-disciplines concerned with computational approaches to the social sciences. This means that computers are used to model, simulate, and analyze social phenomena. Fields include computational economics, computational sociology, cliodynamics, culturomics, and the automated analysis of contents, in social and traditional media. It focuses on investigating social and behavioral relationships and interactions through social simulation, modeling, network analysis, and media analysis.
+The interactive Web Interface (IWI) provides connections between computational components and data input/analysis and visualization. An automated system is used to scrape forcing data from outside sources such as tides, wind, atmospheric pressure, wind waves. It generates boundary and forcing conditions needed by the models. It also handles scheduling, data analysis, data transfer between HPC and Web server.  
 
-.. image:: images/logo/love.jpg
+.. image:: images/automate_system/autosystem.png
    :width: 500px
    :height: 334px
    :align: right
 
-There are two terminologies that relate to each other: Social Science Computing (SSC) and Computational Social Science (CSS). In literature, CSS is referred to the field of social science that uses the computational approaches in studying the social phenomena. On the other hand, SSC is the field in which computational methodologies are created to assist in explanations of social phenomena.
+Model Coupling System
+****************************************
 
-Computational social science revolutionizes both fundamental legs of the scientific method: empirical research, especially through big data, by analyzing the digital footprint left behind through social online activities; and scientific theory, especially through computer simulation model building through social simulation.[2][3] It is a multi-disciplinary and integrated approach to social survey focusing on information processing by means of advanced information technology. The computational tasks include the analysis of social networks, social geographic systems,[4] social media content and traditional media content.
+The Model Coupling System (MCS) links models in different scales and physics. The model components include the Coupled Ocean Atmosphere Wave Sediment Transport Modeling System (COAWST), Finite Volume Community Ocean Model (FVCOM), and in-house models, such as NearCoM, FUNWAVE-TVD, and NHWAVE. 
 
+The following WIKI lists the in-house models and typical applications in Delaware Bay and adjacent nearshore regions.  
 
 ============
 Wiki Content
@@ -32,8 +34,8 @@ Wiki Content
    :maxdepth: 2
    :caption: Contents:
 
-   basics
-   projects
+   models
+   applications
 
 ==================
 Indices and tables
