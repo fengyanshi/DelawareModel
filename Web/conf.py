@@ -88,7 +88,7 @@ html_theme = "logilab"
 #
 # html_theme_options = {}
 html_theme_options = {
-        'logo':'../../../images/logo/css_logo.svg',
+        'logo':'../../../images/logo/Delaware.svg',
         'logo_url':'https://fengyanshi.github.io/DelawareModel/Web/Logilabbuild/html/index.html'
         }
 
