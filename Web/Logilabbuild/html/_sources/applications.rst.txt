@@ -7,6 +7,7 @@
    :maxdepth: 2
    
    app_coupling_framework
+   mod_brokon
    app_inlandbays
    app_bbk
    app_murderkill

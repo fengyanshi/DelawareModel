@@ -1,5 +1,5 @@
 
-NearCoM-Subgrid and fsklern Package 
+NearCoM-Subgrid and fsklearn Package 
 #########################################
 
 

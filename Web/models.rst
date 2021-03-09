@@ -11,5 +11,4 @@
    mod_nearcom
    mod_nhwave
    mod_subgrid
-   mod_brokon
    mod_others

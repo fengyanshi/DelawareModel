@@ -13,12 +13,14 @@ Description
 Interactive Web Interface
 ****************************************
 
-The interactive Web Interface (IWI) provides connections between computational components and data input/analysis and visualization. An automated system is used to scrape forcing data from outside sources such as tides, wind, atmospheric pressure, wind waves. It generates boundary and forcing conditions needed by the models. It also handles scheduling, data analysis, data transfer between HPC and Web server.  
+The interactive Web Interface (IWI) provides connections between computational components and data input/analysis and visualization. An automated system is used to scrape forcing data from outside sources (API) such as tides, wind, atmospheric pressure, and wind waves. It generates boundary and forcing conditions needed by models. It also handles HPC scheduling, data analysis, data transfer between HPC and Web server.  
 
 .. image:: images/automate_system/autosystem.png
    :width: 500px
    :height: 334px
    :align: right
+
+*The system is being developed in the ESTCP project (TWL affected by storms and SLR).* 
 
 Model Coupling System
 ****************************************
@@ -27,7 +29,7 @@ The Model Coupling System (MCS) links models in different scales and physics. Th
 
 The following WIKI lists the in-house models and typical applications in Delaware Bay and adjacent nearshore regions.  
 
-`CLICK to see an example of Interactive Flooding Maps <../../interactive_map/Flood_NF.html>`_
+`CLICK to see an example of Interactive Flooding Maps (Norfork, 100-year storm, SLR 2100) <../../interactive_map/Flood_NF.html>`_
 
 ============
 Wiki Content
