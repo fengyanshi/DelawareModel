@@ -10,6 +10,8 @@ The project “Addressing Obstacles that Preclude Installation of Living Shoreli
 
 Efforts will be achieved through extensive field efforts pre- and post-installation of the living shoreline; through collaboration with a technical review panel consisting of experts from state, local, and non-profit organizations, and professional engineers; and through the calibration/validation of a numerical model for optimal living shoreline design and subsequent predictions of ship wake energy on the installation and DE estuary wetlands. Study impacts include a detailed investigation of the hydrodynamics and dissipation characteristics (rarely undertaken) that will assist in future living shoreline installations, forging ongoing relationships with stakeholders undertaking living shoreline installations, creating a site assessment tool through the numerical model that will be made user-friendly via a graphic user interface, and improving public perception of living shorelines
 
+Shipwake recognition methodology: Support vector machine model (SVM) and Multilayer perceptron (MLP). 
+
 * Ship moving from south to north
 
 .. raw:: html
