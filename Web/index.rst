@@ -31,6 +31,7 @@ The following WIKI lists the in-house models and typical applications in Delawar
 
 `CLICK to see an example of Interactive Flooding Maps (Norfork, 100-year storm, SLR 2100) <../../interactive_map/Flood_NF.html>`_
 `CLICK to see an example of Interactive Bathymetry Maps (Inland Bays) <../../interactive_map/inlandbays_DEM.html>`_
+`CLICK to see an example of Interactive Elevation Maps (Inland Bays) <../../interactive_map/eta_sample.html>`_
 
 ============
 Wiki Content
